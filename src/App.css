@@ -1,0 +1,38 @@
+body {
+  background-color: #d3cedf;
+  font-family: "Open Sans", monospace;
+}
+
+.head {
+  margin-top: 15px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 800;
+  font-family: "Open Sans", monospace;
+}
+.card {
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 4%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+  background: white;
+  text-align: center;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  padding: 1em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 23px 0px;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.1);
+  margin-bottom: 3px;
+  transition: 0.3s;
+  background: #f2d7d9;
+}
+.title {
+  font-size: 20px;
+  font-weight: 400;
+}
